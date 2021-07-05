@@ -5,13 +5,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         String str1 = s.nextLine();
-        String str2 = s.nextLine();
-        int l1 = str1.length();
-        int l2 = str2.length();
-        if (l1 > l2){
-                System.out.println("Махатма");
+        Integer passwordSave = 111111;
+        Integer passwordUser = Integer.valueOf(str1);
+        if (passwordSave == passwordUser) {
+                System.out.println("Access is granted");
             } else {
-                System.out.println("Джавахарлал");
+                System.out.println("Access is denied");
             }
 
 
