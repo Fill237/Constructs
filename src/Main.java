@@ -3,16 +3,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        String str1 = s.nextLine();
-        Integer passwordSave = 111111;
-        Integer passwordUser = Integer.valueOf(str1);
-        if (passwordSave == passwordUser) {
-                System.out.println("Access is granted");
-            } else {
-                System.out.println("Access is denied");
-            }
-
-
+        Scanner scan = new Scanner(System.in);
+        String str1 = scan.next();
+        String str2 = scan.next();
+        String str3 = scan.next();
+        Integer number1 = Integer.valueOf(str1);
+        Integer number2 = Integer.valueOf(str2);
+        Integer number3 = Integer.valueOf(str3);
+            if (number1<=number2);
+            else if (number2<=number3);
+            System.out.println(number3);
     }
 }
