@@ -10,8 +10,8 @@ public class Main {
         Integer number1 = Integer.valueOf(str1);
         Integer number2 = Integer.valueOf(str2);
         Integer number3 = Integer.valueOf(str3);
-            if (number1<=number2);
-            else if (number2<=number3);
-            System.out.println(number3);
+            if (number1>=number2 && number1>=number3) System.out.println(number1);
+            if (number2>=number1 && number2>=number3) System.out.println(number2);
+            if (number3>=number2 && number3>=number1) System.out.println(number3);
     }
 }
